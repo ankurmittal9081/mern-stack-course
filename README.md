@@ -1,4 +1,3 @@
-
 # MERN Stack Course 🚀
 
 This repository contains my learning journey and projects while practicing the MERN (MongoDB, Express, React, Node.js) stack.  
@@ -15,6 +14,8 @@ This repository contains my learning journey and projects while practicing the M
 - MongoDB
 
 ## 🛠️ How to Run
+
 1. Clone the repo  
    ```bash
    git clone https://github.com/ankurmittal9081/mern-stack-course.git
+   cd mern-stack-course
