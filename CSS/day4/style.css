@@ -1,0 +1,65 @@
+.container
+{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    justify-content: center; 
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* flex-flow:column wrap */
+    /* align-content: flex-start; */
+
+    gap: 10px;
+    /* height: 400px; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* flex-direction: column; */ 
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* margin: 10px; */
+    /* flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+
+
+/* JUSTIFY CONTENT MAIN AXIX KE AROUND KAAM KARTA H */
+/* MAIN AXIS DECIDE KON KAREGA --> , AAPKA FLEX KA DIRECTION */
+/* ALIGN ITEMS CROSS DIRECTIION KE ACCORDING KAAM KARTA H */
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    
+
+}
+.first{
+    background-color: orange;
+    /* flex-basis: 200px; */
+    /* flex-grow: 1; */
+    order:1;
+    
+}
+.second{
+    /* flex-grow: 2; */
+    background-color: green;
+    /* flex-basis: 300px; */
+    order: 0;
+    /* flex-shrink: 40; */
+}
+.third{
+    /* align-self: flex-start; */
+    /* flex-grow: 3; */
+    order: -1;
+    background-color: red;
+}
+.fourth{
+    /* flex-grow: 4; */
+    order: 3;
+    background-color: chartreuse;
+}
