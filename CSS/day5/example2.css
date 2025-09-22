@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.container{
+    display: grid;
+    width: 800px;
+    height: 800px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: aqua;
+}
+.box{
+    /* height: 100px; */
+    background-color:rgb(95,95,200);
+
+}
+.first{
+    grid-row: 1/4;
+    background-color: green;
+}
+
+.second{
+   grid-column: 2/4;
+}
+.third{
+
+}
+.sixth{
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
