@@ -5,7 +5,8 @@
 // console.log(typeof b.toFixed(2));//After decimal  only give two value
 // console.log(b);
 
-const { log } = require("console")
+const { log } = require("console");
+
 
 // console.log(b.toPrecision(3));
 // console.log(b.toString());number to string
@@ -55,8 +56,18 @@ const { log } = require("console")
 // console.log(Math.random());//random value generate [0(incluxive)-1(exlcuxive)]
 
 //satte bhajhi ka game banana h:(0-9)
-console.log(Math.ceil(Math.random()*10));
 
+// formula -->>>>> Math.floor(Math.random()*total No. of outcomes)+shift
+
+// console.log(Math.floor(Math.random()*10)+1);
+// console.log(Math.floor(Math.random()*6)+1);
+// console.log(Math.floor(Math.random()*11)+15);
+
+// Math.floor(Math.random()*(max-min+1))+min
+
+//OTP Generate:4 Digit:1000-9999
+
+console.log(Math.floor(Math.random()*(9999-1000)+1000));
 
 
 
